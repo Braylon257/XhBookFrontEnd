@@ -2,13 +2,36 @@
     margin: 0;
     padding: 0;
 }
+a{
+    list-style-type: none;
+}
 .back-imag{
     width: 100%;
     height: 100%;
     background: url("../img/background-img.png") no-repeat;
 }
+.reg-left{
+    width:35%;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+}
 .logo{
-    width: 100px;
-    height: 50px;
-    background-color: pink;
+    width: 100%;
+    height: 50%;
+    margin: 60px 0 0 150px ;
+    cursor: pointer;
+}
+.welcome{
+    width: 100%;
+    height: 50%;
+    font-size: 50px;
+    font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    color:#405f80;
+    cursor: pointer;
+    /*margin: 100px 0 0 100px;*/
+}
+.welcome span{
+    display: inline-block;
+    width: 500px;
 }
