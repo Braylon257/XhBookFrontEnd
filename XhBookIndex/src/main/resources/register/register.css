@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "楷体","Microsoft YaHei UI" ,"微软雅黑",sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/*background-left*/
+.bag-img{
+    width: 100%;
+    height: 1080px;
+    background: url("../img/background-img.png") no-repeat;
+    position: relative;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+.main-left{
+    width: 60%;
+    height: 100%;
+    float: left;
+    /*overflow: hidden;*/
+}
+.logo{
+    width: 100%;
+    height: 38%;
+}
+.logo a{
+    display: inline-block;
+    margin: 60px 0 0 130px;
+}
+.welcome{
+    width: 100%;
+    height: 62%;
+}
+.welcome a{
+    display: inline-block;
+    margin: 0 0 0 150px;
+}
+.welcome span{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    color: #405f80;
+    font-size: 35px;
+    font-weight: bold;
+}
+/*右边内容样式*/
+.main-right{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+.main-right .login{
+    width: 330px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 5%;
+    margin: 250px 280px 0 0 ;
+}
+.login .pic{
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.login .pic img{
+    margin-top: 60px;
+}
+.login .pic a{
+    display: inline-block;
+    color: #415f7f;
+    font-weight: bold;
+}
+.login-form form{
+    width:80%;
+    height:300px;
+    margin: 0 auto;
+}
+.login-form div{
+    width: 100%;
+    height: 25px;
+    border: 1px solid #b3d4db;
+    text-align: center;
+    margin-top: 12px;
+}
+.login-form form input{
+    display: inline-block;
+    width: 80%;
+    height: 25px;
+    outline: none;
+    border: 0;
+}
+.login-form form .input-verification-code{
+    width: 50%;
+    display: inline-block;
+}
+.login-form form .input-verification-code input{
+    float: right;
+}
+.login-form form .verification-code{
+    width: 30%;
+    float: right;
+    display: inline-block;
+}
+.register{
+    background-color: #405f80;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #405f80;
+    outline: none;
+    margin-top: 12px;
+}
+/*表单内小图标*/
+.login-form .input-one{
+    background: url("../img/user_icon.png") no-repeat 3px center;
+    background-size: 20px;
+}
+.login-form .input-two{
+    background: url("../img/e-mail_icon.png") no-repeat 3px center;
+    background-size: 20px;
+}
+.login-form .input-three{
+    background: url("../img/password_icon.png") no-repeat 3px center;
+    background-size: 20px;
+}
+.login-form .input-four{
+    background: url("../img/code_icon.png") no-repeat 3px center;
+    background-size: 20px;
+}
+/*表单下提示字体*/
+.login-form  span{
+    display: inline-block;
+    background: url("../img/alert_icon2.png") no-repeat 0 center;
+    background-size: 8px;
+    width: 100%;
+    height: 13px;
+    color: #405f80;
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+    text-align: left;
+}
+
+
+
