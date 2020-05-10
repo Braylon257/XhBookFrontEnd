@@ -168,14 +168,18 @@ a{
     height: 9px;
 }
 .login-form .click-login{
-    width: 42%;
+    display: inline-block;
     float: right;
     color: #898989;
-    text-align: right;
-    margin-top: 5px;
+    margin-top: 8px;
+    -webkit-transform : scale(0.84,0.84) ;
+    font-size: 7px;
+    font-weight: bold;
+    margin-right: -7px;
 }
-.login-form .click-login a{
+.login-form .click-login i{
     color: #405f80;
+    font-style: normal;
 }
 
 
