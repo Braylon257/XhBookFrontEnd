@@ -125,6 +125,20 @@ a{
     background: url("../img/password_icon.png") no-repeat 3px center;
     background-size: 20px;
 }
+.input-three input {
+    margin-left:20px;
+}
+.input-three a{
+    width: 15px;
+    height: 15px;
+    float: right;
+    line-height: 25px;
+    margin-right: 5px;
+}
+.input-three a img{
+    width: 100%;
+    height: 100%;
+}
 .login-form .input-four{
     background: url("../img/code_icon.png") no-repeat 3px center;
     background-size: 20px;
@@ -132,15 +146,36 @@ a{
 /*表单下提示字体*/
 .login-form  span{
     display: inline-block;
-    background: url("../img/alert_icon2.png") no-repeat 0 center;
-    background-size: 8px;
     width: 100%;
     height: 13px;
     color: #405f80;
     font-weight: bold;
-    font-size: 12px;
+    -webkit-transform : scale(0.75,0.75) ;
+    font-size: 7px;
     float: left;
     text-align: left;
+    margin-left: -33px;
+}
+.login-form div i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-right: 5px;
+}
+.login-form div i img{
+    width: 9px;
+    height: 9px;
+}
+.login-form .click-login{
+    width: 42%;
+    float: right;
+    color: #898989;
+    text-align: right;
+    margin-top: 5px;
+}
+.login-form .click-login a{
+    color: #405f80;
 }
 
 
