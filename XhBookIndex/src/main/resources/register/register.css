@@ -27,7 +27,7 @@ a{
 }
 .logo a{
     display: inline-block;
-    margin: 60px 0 0 130px;
+    margin: 60px 0 0 100px;
 }
 .welcome{
     width: 100%;
@@ -42,7 +42,7 @@ a{
     width: 100%;
     height: 40px;
     color: #405f80;
-    font-size: 35px;
+    font-size: 52px;
     font-weight: bold;
 }
 /*右边内容样式*/
@@ -52,8 +52,8 @@ a{
     float: right;
 }
 .main-right .login{
-    width: 330px;
-    height: 450px;
+    width: 430px;
+    height: 550px;
     background-color: #fff;
     border-radius: 5%;
     margin: 250px 280px 0 0 ;
@@ -80,15 +80,15 @@ a{
 }
 .login-form div{
     width: 100%;
-    height: 25px;
+    height: 35px;
     border: 1px solid #b3d4db;
     text-align: center;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 .login-form form input{
     display: inline-block;
     width: 80%;
-    height: 25px;
+    height: 35px;
     outline: none;
     border: 0;
 }
@@ -115,15 +115,15 @@ a{
 /*表单内小图标*/
 .login-form .input-one{
     background: url("../img/user_icon.png") no-repeat 3px center;
-    background-size: 20px;
+    background-size: 25px;
 }
 .login-form .input-two{
     background: url("../img/e-mail_icon.png") no-repeat 3px center;
-    background-size: 20px;
+    background-size: 25px;
 }
 .login-form .input-three{
     background: url("../img/password_icon.png") no-repeat 3px center;
-    background-size: 20px;
+    background-size: 25px;
 }
 .input-three input {
     margin-left:20px;
@@ -146,26 +146,26 @@ a{
 /*表单下提示字体*/
 .login-form  span{
     display: inline-block;
-    width: 100%;
-    height: 13px;
+    width: 125%;
+    height: 16px;
     color: #405f80;
     font-weight: bold;
     -webkit-transform : scale(0.75,0.75) ;
     font-size: 7px;
     float: left;
     text-align: left;
-    margin-left: -33px;
+    margin-left: -52px;
 }
 .login-form div i{
     display: inline-block;
     width: 10px;
     height: 10px;
     float: left;
-    margin-right: 5px;
+    margin:2px 15px 0 0;
 }
 .login-form div i img{
-    width: 9px;
-    height: 9px;
+    width: 15px;
+    height: 15px;
 }
 .login-form .click-login{
     display: inline-block;
