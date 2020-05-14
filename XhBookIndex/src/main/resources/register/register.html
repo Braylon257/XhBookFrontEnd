@@ -4,48 +4,60 @@
     <meta charset="UTF-8">
     <title>register</title>
     <link rel="stylesheet" href="register.css" type="text/css">
-    <link rel="stylesheet" href="register.js" >
     <script src="register.js"></script>
     <script src="../js/my$.js"></script>
 </head>
 <body>
-<div class="bag-img">
-    <div class="main-left">
-        <div class="logo"><a href=""><img src="../img/logo.png" alt="" style="width: 450px;"></a></div>
-        <div class="welcome"><a href=""><span>欢迎加入！</span><br><span>Welcome Aboard</span></a></div>
+<div class="contender clarify">
+    <div class="header">
+        <div class="logo">
+            <a href=""><img src="../img/logo.png" alt="新华云阅读"></a>
+        </div>
     </div>
-    <div class="main-right">
-        <div class="login">
-            <div class="pic"><img src="../img/sign-in_icon.png" alt="" style="width:50px;"><br><a href="">立即注册</a></div>
-            <div class="title">
-                <a href=""></a><a href=""></a>
+    <div class="container clarify">
+        <div class="welcome">
+                <h4>欢迎加入</h4>
+                <h4>Welcome Aboard</h4>
+                <button>返回首页</button>
+        </div>
+        <div class="register">
+            <div class="title clarify">
+                <div class="title-center">
+                    <div> <img src="../img/sign-in_icon.png" alt="头像"></div>
+                    <div><a href="">立即注册</a></div>
+                </div>
             </div>
-            <div class="login-form" id="login-form">
+            <div class="form">
                 <form action="">
-                       <div class="input-one">
-                           <input type="text" name="" value="" placeholder="注册账号"><br>
-                           <span><i><img src="../img/alert_icon2.png" alt=""></i>请输入4-12位数字,字母的组合、以字母开头</span>
-                       </div>
-                        <div class="input-two">
-                            <input type="text" name="" value=""  placeholder="邮箱地址"><br>
-                            <span><i><img src=../img/alert_icon2.png alt=""></i>再次确认密码</span>
-                        </div>
-                        <div class="input-three">
-                            <input type="password" name="" value=""  placeholder="输入密码"><a href=""><img src=../img/close-eyes_icon.png alt=""></a><br>
-                            <span><i><img src="../img/alert_icon2.png" alt=""></i>请输入8-16位字符,字母、数字的组合</span>
-                        </div>
-                        <div class="input-three">
-                            <input type="password" name="" value=""  placeholder="确认密码"><a href=""><img src="../img/close-eyes_icon.png" alt=""></a><br>
-                            <span><i><img src="../img/alert_icon2.png" alt=""></i>再次确认密码</span>
-                        </div>
-                        <div class="input-verification-code input-four">
-                            <input type="text" name="" value=""  placeholder="请输入验证码">
-                        </div>
-                        <div class="verification-code">
-                            <input type="text" name="" value="" class="security-code">
-                        </div>
-                        <input type="button"  value="注册" class="register" style="width: 100%"><br>
-                        <a href="" class="click-login">已有账号？<i>立即登入</i></a>
+                    <div class="input-one">
+                        <span class="pic-img"><img src="../img/user_icon.png" alt=""></span>
+                        <input type="text" placeholder="注册账号">
+                        <span><img src="../img/alert_icon2.png" alt="">请输入4-12位数字、字母的组合,以字母开头</span>
+                    </div>
+                    <div class="input-two">
+                        <span class="pic-img"><img src="../img/e-mail_icon.png" alt=""></span>
+                        <input type="text" placeholder="邮箱地址">
+                        <span><img src="../img/alert_icon2.png" alt="">请输入常用的邮箱</span>
+                    </div>
+                    <div class="three">
+                        <span class="pic-img"><img src="../img/password_icon.png" alt=""></span>
+                        <input type="text" placeholder="输入密码">
+                        <span><img src="../img/alert_icon2.png" alt="">请输入8-16位字符、数字、字母的组合</span>
+                    </div>
+                    <div class="four">
+                        <span class="pic-img"><img src="../img/password_icon.png" alt=""></span>
+                        <input type="text" placeholder="确认密码">
+                        <span><img src="../img/alert_icon2.png" alt="">请在输入一遍上面的密码</span>
+                    </div>
+                    <div class="five">
+                        <span class="pic-img"><img src="../img/code_icon.png" alt=""></span>
+                        <input type="text" class="five-input1" placeholder="请输入验证码">
+                        <input type="text" class="five-input2">
+                    </div>
+                    <div class="six">
+                        <button onclick="">注册</button>
+                        <span><i>已有账号？</i><a href="">立即登入</a></span>
+                    </div>
                 </form>
             </div>
         </div>

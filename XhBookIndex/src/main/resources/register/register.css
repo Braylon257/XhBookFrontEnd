@@ -6,181 +6,172 @@
 a{
     text-decoration: none;
 }
-/*background-left*/
-.bag-img{
+.logo, .welcome{
+    float: left;
+}
+.contender{
     width: 100%;
     height: 1080px;
     background: url("../img/background-img.png") no-repeat;
-    position: relative;
     -webkit-background-size: 100% 100%;
     -o-background-size: 100% 100%;
 }
-.main-left{
-    width: 60%;
-    height: 100%;
-    float: left;
-    /*overflow: hidden;*/
+/*头部*/
+
+
+.clarify::before{/*清楚浮动*/
+    content:"";
+    height:0;
+    line-height:0;
+    display:block;
+    visibility:hidden;
+    overflow: auto;
+    clear:both;
+}
+.header{
+    width: 80%;
+    height: 112px;
+    padding: 60px 0;
+    margin: 0 auto;
 }
 .logo{
-    width: 100%;
-    height: 38%;
+    width: 30%;
+    height: 100%;
 }
 .logo a{
     display: inline-block;
-    margin: 60px 0 0 100px;
+    width: 468px;
+}
+.logo img{
+    width: 100%;
+}
+/*内容*/
+
+
+.container{
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    /*display: inline-block;*/
+    overflow: hidden;
+    position: relative;
 }
 .welcome{
-    width: 100%;
-    height: 62%;
+    width: 485px;
+    height: 230px;
+    /*background-color: yellow;*/
+    padding: 170px 0;
 }
-.welcome a{
-    display: inline-block;
-    margin: 0 0 0 150px;
-}
-.welcome span{
-    display: inline-block;
-    width: 100%;
-    height: 40px;
+.welcome>h4{
+    font:normal bold 58px "楷体",sans-serif;
     color: #405f80;
-    font-size: 52px;
-    font-weight: bold;
+    margin-left: 30px;
 }
-/*右边内容样式*/
-.main-right{
-    width: 40%;
-    height: 100%;
-    float: right;
-}
-.main-right .login{
-    width: 430px;
-    height: 550px;
-    background-color: #fff;
-    border-radius: 5%;
-    margin: 250px 280px 0 0 ;
-}
-.login .pic{
-    width: 100%;
-    height: 150px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-}
-.login .pic img{
-    margin-top: 60px;
-}
-.login .pic a{
-    display: inline-block;
-    color: #415f7f;
-    font-weight: bold;
-}
-.login-form form{
-    width:80%;
-    height:300px;
-    margin: 0 auto;
-}
-.login-form div{
-    width: 100%;
-    height: 35px;
-    border: 1px solid #b3d4db;
-    text-align: center;
-    margin-top: 20px;
-}
-.login-form form input{
-    display: inline-block;
-    width: 80%;
-    height: 35px;
-    outline: none;
-    border: 0;
-}
-.login-form form .input-verification-code{
-    width: 50%;
-    display: inline-block;
-}
-.login-form form .input-verification-code input{
-    float: right;
-}
-.login-form form .verification-code{
-    width: 30%;
-    float: right;
-    display: inline-block;
-}
-.register{
+.welcome button{
+    width: 180px;
+    height: 45px;
     background-color: #405f80;
+    border: 0;
+    border-radius: 5px;
+    font-size: 25px;
+    box-shadow: none;
     color: #fff;
-    font-weight: bold;
-    border: 1px solid #405f80;
     outline: none;
-    margin-top: 12px;
-}
-/*表单内小图标*/
-.login-form .input-one{
-    background: url("../img/user_icon.png") no-repeat 3px center;
-    background-size: 25px;
-}
-.login-form .input-two{
-    background: url("../img/e-mail_icon.png") no-repeat 3px center;
-    background-size: 25px;
-}
-.login-form .input-three{
-    background: url("../img/password_icon.png") no-repeat 3px center;
-    background-size: 25px;
-}
-.input-three input {
-    margin-left:20px;
-}
-.input-three a{
-    width: 15px;
-    height: 15px;
-    float: right;
-    line-height: 25px;
-    margin-right: 5px;
-}
-.input-three a img{
-    width: 100%;
-    height: 100%;
-}
-.login-form .input-four{
-    background: url("../img/code_icon.png") no-repeat 3px center;
-    background-size: 20px;
-}
-/*表单下提示字体*/
-.login-form  span{
-    display: inline-block;
-    width: 125%;
-    height: 16px;
-    color: #405f80;
-    font-weight: bold;
-    -webkit-transform : scale(0.75,0.75) ;
-    font-size: 7px;
-    float: left;
-    text-align: left;
-    margin-left: -52px;
-}
-.login-form div i{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    float: left;
-    margin:2px 15px 0 0;
-}
-.login-form div i img{
-    width: 15px;
-    height: 15px;
-}
-.login-form .click-login{
-    display: inline-block;
-    float: right;
-    color: #898989;
-    margin-top: 8px;
-    -webkit-transform : scale(0.84,0.84) ;
-    font-size: 7px;
-    font-weight: bold;
-    margin-right: -7px;
-}
-.login-form .click-login i{
-    color: #405f80;
-    font-style: normal;
+    margin: 20px 0 0 30px;
 }
 
+/*注册框*/
+.register{
+    width: 500px;
+    height: 660px;
+    background-color: #fff;
+    border-radius: 25px;
+    float: right;
+    opacity: 0.85;
+    box-shadow: 0  0 8px #5d5c5c;
+    box-sizing:border-box;
+    position: absolute;
+    right: 0;
+}
+.register .title{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.register .title .title-center{
+    margin-top: 40px;
+}
+.register .title div img{
+    height: 50px;
+    display: inline-block;
+}
+.register .title div a{
+    display: inline-block;
+    font:  bold 10px "楷体", sans-serif;
+    color: #405f80;
+}
+.register .form{
+    margin-top: 30px;
+}
+.register .form div{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    text-align:left;
+    position: relative;
+}
+.register .form div input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #b3d4db;
+    float: right;
+    text-indent: 45px;
+}
+.register .form div span{
+    font: bold 12px "楷体",sans-serif;
+    color: #405f80;
+}
+.register .form div span img{
+    width: 12px;
+}
+.register .form .five .five-input1{
+    width: 50%;
+    float: left;
+}
+.register .form .five .five-input2{
+    width: 30%;
+    float: right;
+}
+.register .form .six button{
+    width: 100%;
+    height: 40px;
+    background-color: #405f80;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+}
+.register .form div .pic-img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.register .form div .pic-img img{
+    width: 25px;
+    height: 25px;
+    padding: 8px 10px;
+ }
+.register .form .six span{
+    float: right;
+    margin-top: 10px;
+}
+.register .form .six span i{
+    font-style: normal;
+    color: #898989;
+}
+.register .form .six span a{
+    color: #405f80;
+}
 
 
