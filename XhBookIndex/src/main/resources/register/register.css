@@ -140,6 +140,7 @@ a{
 .register .form div .msg{
     display: inline-block;
     margin-top: 3px;
+    display: none;
 }
 .register .form div span img{
     width: 12px;
